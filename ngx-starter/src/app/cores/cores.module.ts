@@ -6,7 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     // Third party modules
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
   ],
 })
 export class CoresModule {

@@ -36,6 +36,19 @@ Install Package npm
         npm i angular2-in-memory-web-api --save
     ```
 
+    * Install package Bootstrap 4
+    ```
+        npm i bootstrap --save
+    ```
+    * Install package Fontawesome
+    ```
+        npm i font-awesome --save
+    ```
+    * Install package devextreme
+    ```
+        npm install --save devextreme@latest
+```
+
 * Step 3: Init Module
 
     * Create Auth module
