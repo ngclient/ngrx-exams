@@ -1,3 +1,13 @@
-<p>
-  layout works!
-</p>
+<div class="wrrapper-main">
+  <app-headers></app-headers>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <app-sidebars></app-sidebars>
+      </div>
+      <div class="col-md-9">
+        <ng-content></ng-content>
+      </div>
+    </div>
+  </div>
+</div>

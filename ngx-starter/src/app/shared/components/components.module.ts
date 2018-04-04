@@ -1,13 +1,23 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeadersComponent } from './headers/headers.component';
 import { SidebarsComponent } from './sidebars/sidebars.component';
 import { PageContentComponent } from './page-content/page-content.component';
 
+const COMPONENTS = [
+  HeadersComponent, 
+  SidebarsComponent, 
+  PageContentComponent
+];
+
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
-  declarations: [HeadersComponent, SidebarsComponent, PageContentComponent]
+  declarations: [...COMPONENTS],
+  exports: [...COMPONENTS]
+    
 })
 export class ComponentsModule { }
