@@ -1,0 +1,36 @@
+﻿- Architechture
+	- Modules (Root, children, Feature)
+	- Components (component dump, component smart, template ref)
+	- Service (api, mock data)
+
+- Componets & Templates
+	- Display data,
+	- Template syntax
+	- Lifecycle hook (OnInit, AfterInit) https://angular.io/guide/lifecycle-hooks
+	- dynamic components
+	- directives ( 2 type: attribute & structural, how use, custom/create a directive )
+	- Pipes(How use, custom pipe)
+
+- Form
+	- One way Bindding data
+	- Two way bidnding data
+	- Validate form 
+	- custom validate function form
+	- Reactive Forms
+	- Dynamic Forms
+
+- Data format Observables
+	- The RxJS library (method, static, function, Event emitter, BehaviorSubject)
+
+- Modules
+	- Import modules
+	- Config lazy load modules
+	- Routing
+	- Providers
+	- Shared
+
+- HttpClient/ Http
+	- use with a api real
+	- use with mock api backend
+		- mock backend http
+		- mock data no http Request
